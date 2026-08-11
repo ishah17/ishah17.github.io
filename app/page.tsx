@@ -29,10 +29,10 @@ export default function Home() {
           <a className="text-link" href="#work">Explore selected work <Arrow /></a>
         </div>
         <div className="signal-panel" aria-label="Selected experience signals">
-          <div><strong>6+</strong><span>years in business systems &amp; delivery</span></div>
-          <div><strong>18+</strong><span>months leading a nationwide replacement</span></div>
-          <div><strong>$250K+</strong><span>annual technology savings contributed</span></div>
-          <div><strong>P&amp;C</strong><span>workers’ comp &amp; premium audit depth</span></div>
+          <div><strong>6+</strong><span>years turning regulated operations into systems delivery</span></div>
+          <div><strong>18+</strong><span>months leading business analysis for a CIO-sponsored nationwide platform replacement</span></div>
+          <div><strong>$250K+</strong><span>annual technology savings contributed through platform transformation</span></div>
+          <div><strong>P&amp;C</strong><span>workers’ comp &amp; premium-audit domain depth</span></div>
         </div>
       </section>
 
