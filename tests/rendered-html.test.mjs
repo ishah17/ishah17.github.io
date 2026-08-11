@@ -22,5 +22,7 @@ test("server-renders the public portfolio", async () => {
   assert.match(html, /Why I’m not active on LinkedIn/);
   assert.match(html, /What being a pilot taught me about process over goals/);
   assert.match(html, /CIO-sponsored nationwide platform replacement/);
+  assert.match(html, /href="#why-im-not-active-on-linkedin"/);
+  assert.match(html, /href="#pilot-process-not-goals"/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
 });

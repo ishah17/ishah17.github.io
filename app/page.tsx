@@ -1,4 +1,5 @@
 import { articles, capabilities, projects } from "./site-content";
+import { ArticleList } from "./ArticleList";
 
 function Arrow() {
   return <span aria-hidden="true">↗</span>;
@@ -81,26 +82,7 @@ export default function Home() {
           <div><p className="kicker">03 / Field notes</p><h2>How I think<br />about the work.</h2></div>
           <p className="section-intro">Short essays on insurance operations, trustworthy technology, and professional life online.</p>
         </div>
-        <div className="article-list">
-          {articles.map((article, index) => (
-            <details className="article" key={article.slug} id={article.slug} open={index === 0 || article.slug === "pilot-process-not-goals"}>
-              <summary>
-                <span className="article-index">0{index + 1}</span>
-                <span className="article-title"><small>{article.category} · {article.readTime}</small>{article.title}</span>
-                <span className="article-toggle" aria-hidden="true">+</span>
-              </summary>
-              <div className="article-body">
-                {article.paragraphs.map((paragraph, pIndex) => <p key={pIndex}>{paragraph}</p>)}
-                {article.sources && (
-                  <div className="sources">
-                    <strong>Sources</strong>
-                    {article.sources.map(source => <a href={source.url} target="_blank" rel="noreferrer" key={source.url}>{source.label} <Arrow /></a>)}
-                  </div>
-                )}
-              </div>
-            </details>
-          ))}
-        </div>
+        <ArticleList articles={articles} />
       </section>
 
       <section className="closing" id="about">
