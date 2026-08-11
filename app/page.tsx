@@ -83,7 +83,7 @@ export default function Home() {
         </div>
         <div className="article-list">
           {articles.map((article, index) => (
-            <details className="article" key={article.slug} id={article.slug} open={index === 0}>
+            <details className="article" key={article.slug} id={article.slug} open={index === 0 || article.slug === "pilot-process-not-goals"}>
               <summary>
                 <span className="article-index">0{index + 1}</span>
                 <span className="article-title"><small>{article.category} · {article.readTime}</small>{article.title}</span>

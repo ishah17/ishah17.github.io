@@ -70,4 +70,18 @@ export const articles = [
       "That is why insurance domain experience matters. Business rules are rarely just rules; they contain exceptions, jurisdictional variation, historical workarounds, and knowledge that may never have made it into documentation. AI analysis begins by making that operating reality visible.",
     ],
   },
+  {
+    slug: "pilot-process-not-goals",
+    category: "Aviation / Process",
+    readTime: "4 min read",
+    title: "What being a pilot taught me about process over goals",
+    paragraphs: [
+      "Flying changed the way I think about achievement. A goal is useful: it tells you where you intend to go. But a goal alone can invite shortcuts. A process gives you the discipline to get there safely, consistently, and with enough awareness to respond when conditions change.",
+      "In aviation, the mission is never just “arrive.” The mission is to prepare, verify, communicate, operate within limits, monitor the environment, and make good decisions all the way through the landing. The checklist is not bureaucracy. It is a memory aid that protects judgment when workload, uncertainty, or pressure are high.",
+      "That mindset has followed me into insurance technology. A team can be given a target date, a savings number, or a launch milestone and still create avoidable risk if it skips the work underneath: clarifying the decision, checking the source data, testing the exceptions, documenting the handoff, and listening to the people who will live with the change in production.",
+      "Goal-oriented work asks, “Did we get there?” Process-oriented work also asks, “Did we get there in a way we can explain, repeat, and trust?” That second question is especially important when a workflow affects customers, compliance, money, or a downstream analyst who needs to understand why a recommendation was made.",
+      "A process focus does not mean moving slowly or refusing ambition. It means making the path visible enough to move quickly without pretending uncertainty is gone. It creates useful stopping points: a preflight check before commitment, a review before release, an escalation before a small issue becomes a system-wide one.",
+      "That is how I approach AI in insurance. I am interested in better outcomes, but I do not want the outcome to hide the method. The strongest systems make evidence, limits, human responsibility, and recovery paths part of the design. The goal matters. The process is what makes the goal worth trusting.",
+    ],
+  },
 ];
