@@ -16,8 +16,8 @@ test("server-renders the public portfolio", async () => {
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
-  assert.match(html, /<title>Ishan Shah \| Insurance AI Analyst<\/title>/i);
-  assert.match(html, /Insurance AI Analyst/);
+  assert.match(html, /<title>Ishan Shah \| Insurance AI \+ Product<\/title>/i);
+  assert.match(html, /Insurance AI \+ Product/);
   assert.match(html, /Premium-audit platform replacement/);
   assert.match(html, /Why I’m not active on LinkedIn/);
   assert.match(html, /What being a pilot taught me about process over goals/);
