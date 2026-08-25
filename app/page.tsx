@@ -95,6 +95,10 @@ export default function Home() {
         <div className="closing-grid">
           <h2>Insurance fluency.<br />Product judgment.<br /><em>Delivery discipline.</em></h2>
           <div>
+            <div className="about-intro">
+              <img className="headshot" src="/headshot.png" alt="Ishan Shah" />
+              <p className="headshot-caption">Ishan Shah · insurance product + systems</p>
+            </div>
             <p>I work at the boundary between business operations and technology: asking the questions that uncover the real problem, mapping how decisions and data move, and helping teams deliver changes that hold up in production.</p>
             <p>I’m currently exploring Product Manager, Business Systems Analyst, and AI Analyst opportunities in insurance where domain knowledge, practical judgment, and delivery rigor matter equally.</p>
             <div className="privacy-note"><span aria-hidden="true">◉</span><p><strong>Privacy by design</strong>This site intentionally publishes no email address, résumé download, or social profile. Recruiters already in contact with me can use our existing channel.</p></div>

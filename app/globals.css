@@ -77,6 +77,9 @@ h1 em,.closing h2 em { color:var(--teal); font-family:inherit; font-style:italic
 .closing-grid { display:grid; grid-template-columns:1.2fr .8fr; gap:9vw; margin-top:70px; }
 .closing h2 { font-size:clamp(48px,6.3vw,86px); line-height:.98; letter-spacing:-.055em; margin:0; font-weight:520; }
 .closing-grid>div>p { font-size:18px; line-height:1.7; color:#d5d9ee; margin:0 0 24px; }
+.about-intro { display:flex; align-items:center; gap:16px; margin-bottom:30px; }
+.headshot { width:92px; height:92px; object-fit:cover; border-radius:50%; border:3px solid rgba(255,255,255,.8); box-shadow:0 10px 24px rgba(0,0,0,.18); }
+.headshot-caption { margin:0!important; color:#bcc3e0!important; font:11px "SFMono-Regular",Consolas,monospace; text-transform:uppercase; letter-spacing:.08em; line-height:1.5!important; }
 .privacy-note { margin-top:45px; padding-top:24px; border-top:1px solid rgba(255,255,255,.2); display:grid; grid-template-columns:30px 1fr; }
 .privacy-note span { color:#aaa6ff; }
 .privacy-note p { margin:0; font-size:13px; color:#bcc3e0; line-height:1.55; }
