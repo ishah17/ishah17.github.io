@@ -23,7 +23,7 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="eyebrow"><span>Insurance · Product · Operations</span><span>Based in California</span></div>
         <h1>I turn insurance complexity into <em>products people can use.</em></h1>
-        <div className="role-strip" aria-label="Roles I am open to"><span className="role-primary">Product Manager</span><span>Business Systems Analyst</span><span>AI Analyst</span></div>
+        <div className="role-strip" aria-label="Roles I am open to"><span>Product Manager</span><span>Business Systems Analyst</span><span>AI Analyst</span></div>
         <div className="hero-bottom">
           <p className="hero-copy">
             I’m Ishan Shah, an insurance technology and product professional. I connect customer needs, business rules, data, and delivery teams to move complex work from discovery to dependable production.
