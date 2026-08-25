@@ -21,8 +21,8 @@ export default function Home() {
       </nav>
 
       <section className="hero" id="top">
-        <div className="eyebrow"><span>Insurance · Product · Operations</span><span>Based in California</span></div>
-        <h1>I turn insurance complexity into <em>products people can use.</em></h1>
+        <div className="eyebrow"><span>Product · Operations · Technology</span><span>Based in California</span></div>
+        <h1>I turn complex operations into <em>products people can use.</em></h1>
         <div className="role-strip" aria-label="Roles I am open to"><span>Product Manager</span><span>Business Systems Analyst</span><span>AI Analyst</span></div>
         <div className="hero-bottom">
           <p className="hero-copy">
