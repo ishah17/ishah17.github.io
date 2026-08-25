@@ -22,21 +22,21 @@ export const projects = [
     outcome: "From symptoms to traceable causes",
   },
   {
-    type: "Portfolio concept",
-    scope: "Responsible insurance AI",
-    title: "An AI-readiness lens for premium audit",
-    summary: "A practical framework for evaluating AI opportunities before selecting a model: identify the decision, map the source data, separate assistance from authority, define exception handling, and make evidence reviewable. It applies delivery lessons from regulated insurance systems to emerging AI workflows.",
-    tags: ["Use-case discovery", "Human review", "Data readiness", "Controls"],
+    type: "Product & process strategy",
+    scope: "Insurance operations",
+    title: "A decision framework for better automation",
+    summary: "A practical framework for improving complex workflows before selecting a tool: clarify the decision, map the source data, define ownership, make exceptions visible, and design the handoff from system to human. AI is one possible instrument—not the starting point.",
+    tags: ["Discovery", "Workflow design", "Data readiness", "Controls"],
     outcomeLabel: "Core principle",
-    outcome: "Automate the task—not accountability",
+    outcome: "Improve the process before automating it",
   },
 ];
 
 export const capabilities = [
-  { title: "Find the real use case", description: "Translate broad AI ambition into a specific insurance decision, user, workflow, constraint, and measurable outcome." },
-  { title: "Interrogate the data", description: "Trace definitions, lineage, quality, exceptions, and business rules before treating a dataset as model-ready." },
-  { title: "Design for trust", description: "Make human review, evidence, uncertainty, escalation, compliance, and auditability part of the workflow—not an afterthought." },
-  { title: "Move from pilot to practice", description: "Connect requirements, acceptance criteria, testing, release readiness, training, feedback, and production stabilization." },
+  { title: "Clarify the problem", description: "Turn a broad business request into a specific customer need, operating decision, workflow, constraint, and measurable outcome." },
+  { title: "Create shared direction", description: "Align business, technology, data, QA, vendors, and leadership around priorities, tradeoffs, requirements, and decisions." },
+  { title: "Design for real operations", description: "Make exceptions, ownership, handoffs, controls, training, and adoption part of the product—not an afterthought." },
+  { title: "Move from plan to practice", description: "Connect roadmap, acceptance criteria, testing, release readiness, feedback, and production stabilization." },
 ];
 
 export const articles = [

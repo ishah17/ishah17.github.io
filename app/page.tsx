@@ -21,12 +21,12 @@ export default function Home() {
       </nav>
 
       <section className="hero" id="top">
-        <div className="eyebrow"><span>Insurance · Product · AI</span><span>Based in California</span></div>
+        <div className="eyebrow"><span>Insurance · Product · Operations</span><span>Based in California</span></div>
         <h1>I turn insurance complexity into <em>products people can use.</em></h1>
-        <div className="role-strip" aria-label="Roles I am open to"><span className="role-primary">AI Analyst</span><span>Product Manager</span><span>Business Systems Lead</span></div>
+        <div className="role-strip" aria-label="Roles I am open to"><span className="role-primary">Product Manager</span><span>Business Systems Analyst</span><span>AI Analyst</span></div>
         <div className="hero-bottom">
           <p className="hero-copy">
-            I’m Ishan Shah, an insurance technology and product professional. I connect customer needs, business rules, data, and delivery teams to ship systems people can trust—including the next generation of AI-assisted workflows.
+            I’m Ishan Shah, an insurance technology and product professional. I connect customer needs, business rules, data, and delivery teams to move complex work from discovery to dependable production.
           </p>
           <a className="text-link" href="#work">Explore selected work <Arrow /></a>
         </div>
@@ -65,7 +65,7 @@ export default function Home() {
       <section className="section approach">
         <div className="section-heading">
           <p className="kicker">02 / What I bring</p>
-          <h2>Product thinking,<br />grounded in insurance.</h2>
+          <h2>Product leadership,<br />grounded in insurance.</h2>
         </div>
         <div className="capability-grid">
           {capabilities.map((item, index) => (
@@ -89,16 +89,16 @@ export default function Home() {
       <section className="closing" id="about">
         <p className="kicker">04 / About</p>
         <div className="closing-grid">
-          <h2>Insurance fluency.<br />Product judgment.<br /><em>AI curiosity.</em></h2>
+          <h2>Insurance fluency.<br />Product judgment.<br /><em>Delivery discipline.</em></h2>
           <div>
             <p>I work at the boundary between business operations and technology: asking the questions that uncover the real problem, mapping how decisions and data move, and helping teams deliver changes that hold up in production.</p>
-            <p>I’m currently exploring AI Analyst opportunities in insurance where domain knowledge, responsible experimentation, and delivery rigor matter equally.</p>
+            <p>I’m currently exploring Product Manager, Business Systems Analyst, and AI Analyst opportunities in insurance where domain knowledge, practical judgment, and delivery rigor matter equally.</p>
             <div className="privacy-note"><span aria-hidden="true">◉</span><p><strong>Privacy by design</strong>This site intentionally publishes no email address, résumé download, or social profile. Recruiters already in contact with me can use our existing channel.</p></div>
           </div>
         </div>
       </section>
 
-      <footer><span>Ishan Shah © 2026</span><span>Insurance AI + Product Portfolio</span><a href="#top">Back to top ↑</a></footer>
+      <footer><span>Ishan Shah © 2026</span><span>Insurance Product + Systems Portfolio</span><a href="#top">Back to top ↑</a></footer>
     </main>
   );
 }

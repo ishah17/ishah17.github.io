@@ -16,12 +16,13 @@ test("server-renders the public portfolio", async () => {
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
-  assert.match(html, /<title>Ishan Shah \| Insurance AI \+ Product<\/title>/i);
-  assert.match(html, /Insurance AI \+ Product/);
+  assert.match(html, /<title>Ishan Shah \| Insurance Product \+ Systems<\/title>/i);
+  assert.match(html, /Insurance Product \+ Systems/);
   assert.match(html, /Premium-audit platform replacement/);
   assert.match(html, /Why I’m not active on LinkedIn/);
   assert.match(html, /What being a pilot taught me about process over goals/);
   assert.match(html, /CIO-sponsored nationwide platform replacement/);
+  assert.match(html, /Product Manager/);
   assert.match(html, /href="#why-im-not-active-on-linkedin"/);
   assert.match(html, /href="#pilot-process-not-goals"/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
