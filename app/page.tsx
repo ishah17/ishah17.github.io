@@ -30,6 +30,10 @@ export default function Home() {
           </p>
           <a className="text-link" href="#work">Explore selected work <Arrow /></a>
         </div>
+        <figure className="hero-visual">
+          <img src="/process-map.png" alt="Insurance product workflow moving from discover to define, deliver, and measure" />
+          <figcaption>My working rhythm: discover the real problem, define the decision, deliver with the team, and measure what changed.</figcaption>
+        </figure>
         <div className="signal-panel" aria-label="Selected experience signals">
           <div><strong>6+</strong><span>years turning regulated operations into systems delivery</span></div>
           <div><strong>18+</strong><span>months leading business analysis for a CIO-sponsored nationwide platform replacement</span></div>
