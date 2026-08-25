@@ -17,7 +17,7 @@ export default function Home() {
           <a href="#thinking">Thinking</a>
           <a href="#about">About</a>
         </div>
-        <span className="availability"><i /> Open to AI Analyst + PM roles</span>
+            <span className="availability"><i /> Open to product + systems roles</span>
       </nav>
 
       <section className="hero" id="top">
