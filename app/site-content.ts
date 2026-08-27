@@ -22,13 +22,13 @@ export const projects = [
     outcome: "From symptoms to traceable causes",
   },
   {
-    type: "Product & process strategy",
+    type: "Mission-led delivery",
     scope: "Cross-functional operations",
-    title: "A decision framework for better automation",
-    summary: "A practical framework for improving complex workflows before selecting a tool: clarify the decision, map the source data, define ownership, make exceptions visible, and design the handoff from system to human. AI is one possible instrument—not the starting point.",
-    tags: ["Discovery", "Workflow design", "Data readiness", "Controls"],
-    outcomeLabel: "Core principle",
-    outcome: "Improve the process before automating it",
+    title: "Process is the product",
+    summary: "I work from the mission outward: clarify what must be true, make the next decision visible, and build a repeatable path the team can trust. The destination matters, but disciplined preparation, honest handoffs, and feedback are what keep the work moving without shortcuts.",
+    tags: ["Mission framing", "Workflow design", "Decision clarity", "Team alignment"],
+    outcomeLabel: "Working principle",
+    outcome: "Make the path dependable, not just the finish line",
   },
 ];
 

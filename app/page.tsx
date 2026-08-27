@@ -21,7 +21,7 @@ export default function Home() {
       </nav>
 
       <section className="hero" id="top">
-        <div className="flight-motifs" aria-hidden="true"><span className="flight-motif motif-one">✈</span><span className="flight-motif motif-two">✈</span><span className="flight-motif motif-three">✈</span></div>
+        <div className="flight-motifs" aria-hidden="true"><span className="flight-motif motif-one">✈</span><span className="flight-motif motif-two">✈</span><span className="flight-motif motif-three">✈</span><span className="flight-motif motif-four">✈</span><span className="flight-motif motif-five">✈</span></div>
         <div className="eyebrow"><span>Product · Operations · Aviation</span><span>Based in California</span></div>
         <h1>I make complex work <em>clear, useful, and ready.</em></h1>
         <div className="role-strip" aria-label="Roles I am open to"><span>Product Manager</span><span>Business Systems Analyst</span><span>AI Analyst</span></div>
@@ -33,7 +33,6 @@ export default function Home() {
         </div>
         <figure className="hero-visual">
           <img src="/process-map.png" alt="Product workflow moving from discover to define, deliver, and measure" />
-          <figcaption>My working rhythm: discover the real problem, define the decision, deliver with the team, and measure what changed.</figcaption>
         </figure>
         <div className="signal-panel" aria-label="Selected experience signals">
           <div><strong>6+</strong><span>years turning regulated operations into systems delivery</span></div>
