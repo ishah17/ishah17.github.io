@@ -21,12 +21,12 @@ export default function Home() {
       </nav>
 
       <section className="hero" id="top">
-        <div className="eyebrow"><span>Product · Operations · Technology</span><span>Based in California</span></div>
-        <h1>I turn complex operations into <em>products people can use.</em></h1>
+        <div className="eyebrow"><span>Product · Operations · Aviation</span><span>Based in California</span></div>
+        <h1>I make complex work <em>clear, useful, and ready.</em></h1>
         <div className="role-strip" aria-label="Roles I am open to"><span>Product Manager</span><span>Business Systems Analyst</span><span>AI Analyst</span></div>
         <div className="hero-bottom">
           <p className="hero-copy">
-            I’m Ishan Shah, an insurance technology and product professional. I connect customer needs, business rules, data, and delivery teams to move complex work from discovery to dependable production.
+            I’m Ishan Shah, a product and systems professional who brings aviation-maintenance discipline to complex work: understand the real problem, make the handoffs clear, and help teams deliver changes people can trust.
           </p>
           <a className="text-link" href="#work">Explore selected work <Arrow /></a>
         </div>
@@ -69,7 +69,7 @@ export default function Home() {
       <section className="section approach">
         <div className="section-heading">
           <p className="kicker">02 / What I bring</p>
-          <h2>Product leadership,<br />grounded in insurance.</h2>
+          <h2>Clear thinking,<br />careful execution.</h2>
         </div>
         <div className="capability-grid">
           {capabilities.map((item, index) => (
@@ -93,20 +93,20 @@ export default function Home() {
       <section className="closing" id="about">
         <p className="kicker">04 / About</p>
         <div className="closing-grid">
-          <h2>Insurance fluency.<br />Product judgment.<br /><em>Delivery discipline.</em></h2>
+          <h2>Maintenance mindset.<br />Product judgment.<br /><em>Delivery discipline.</em></h2>
           <div>
             <div className="about-intro">
               <img className="headshot" src="/headshot.png" alt="Ishan Shah" />
-              <p className="headshot-caption">Ishan Shah · insurance product + systems</p>
+            <p className="headshot-caption">Ishan Shah · product + systems</p>
             </div>
-            <p>I work at the boundary between business operations and technology: asking the questions that uncover the real problem, mapping how decisions and data move, and helping teams deliver changes that hold up in production.</p>
-            <p>I’m currently exploring Product Manager, Business Systems Analyst, and AI Analyst opportunities in insurance where domain knowledge, practical judgment, and delivery rigor matter equally.</p>
+            <p>I work at the boundary between people, operations, and technology: asking the questions that uncover the real problem, mapping how decisions and data move, and helping teams deliver changes that hold up in production.</p>
+            <p>My aviation maintenance background taught me to respect procedures, verify assumptions, and stay calm when the plan meets reality. I bring that same practical judgment to Product Manager, Business Systems Analyst, and AI Analyst opportunities across industries.</p>
             <div className="privacy-note"><span aria-hidden="true">◉</span><p><strong>Privacy by design</strong>This site intentionally publishes no email address, résumé download, or social profile. Recruiters already in contact with me can use our existing channel.</p></div>
           </div>
         </div>
       </section>
 
-      <footer><span>Ishan Shah © 2026</span><span>Insurance Product + Systems Portfolio</span><a href="#top">Back to top ↑</a></footer>
+      <footer><span>Ishan Shah © 2026</span><span>Product + Systems Portfolio</span><a href="#top">Back to top ↑</a></footer>
     </main>
   );
 }

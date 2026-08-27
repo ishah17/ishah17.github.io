@@ -4,7 +4,7 @@
 
 export const projects = [
   {
-    type: "Insurance platform transformation",
+    type: "Platform transformation",
     scope: "Nationwide · 18+ months",
     title: "Premium-audit platform replacement",
     summary: "Initiated CIO-sponsored discovery and led business analysis from operating pain points through requirements, workflows, data definitions, testing, rollout, training, and stabilization. Aligned insurance operations, IT, compliance, finance, vendors, QA, and leadership around one delivery path.",
@@ -14,7 +14,7 @@ export const projects = [
   },
   {
     type: "Operations intelligence",
-    scope: "Workers’ compensation",
+    scope: "Operations intelligence",
     title: "Turning workflow data into action",
     summary: "Analyzed audit status, vendor assignment, process stage, issue type, completion timing, and business impact to surface bottlenecks and recurring issues. Converted findings and user feedback into clearer priorities, documented fixes, and repeatable process improvements.",
     tags: ["SQL", "Excel", "Tableau", "Root-cause analysis"],
@@ -23,7 +23,7 @@ export const projects = [
   },
   {
     type: "Product & process strategy",
-    scope: "Insurance operations",
+    scope: "Cross-functional operations",
     title: "A decision framework for better automation",
     summary: "A practical framework for improving complex workflows before selecting a tool: clarify the decision, map the source data, define ownership, make exceptions visible, and design the handoff from system to human. AI is one possible instrument—not the starting point.",
     tags: ["Discovery", "Workflow design", "Data readiness", "Controls"],
@@ -37,6 +37,8 @@ export const capabilities = [
   { title: "Create shared direction", description: "Align business, technology, data, QA, vendors, and leadership around priorities, tradeoffs, requirements, and decisions." },
   { title: "Design for real operations", description: "Make exceptions, ownership, handoffs, controls, training, and adoption part of the product—not an afterthought." },
   { title: "Move from plan to practice", description: "Connect roadmap, acceptance criteria, testing, release readiness, feedback, and production stabilization." },
+  { title: "Use the right tools", description: "Jira, Confluence, SQL, Excel, Power BI, Tableau, Visio, MS Project, UML/BPMN, and AI-assisted workflows with ChatGPT and Codex." },
+  { title: "Work like a good teammate", description: "Prepared without being rigid, direct without being difficult, and curious about the people closest to the work." },
 ];
 
 export const articles = [
