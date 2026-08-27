@@ -43,9 +43,25 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="closing" id="about">
+        <p className="kicker">01 / About</p>
+        <div className="closing-grid">
+          <h2>Aviation mindset.<br />Product judgment.<br /><em>Delivery discipline.</em></h2>
+          <div>
+            <div className="about-intro">
+              <img className="headshot" src="/headshot.png" alt="Ishan Shah" />
+              <p className="headshot-caption">Ishan Shah · product + systems</p>
+            </div>
+            <p>I work at the boundary between people, operations, and technology: asking the questions that uncover the real problem, mapping how decisions and data move, and helping teams deliver changes that hold up in production.</p>
+            <p>My aviation background taught me to prepare carefully, verify assumptions, and stay calm when the plan meets reality. I bring that same practical judgment to Product Manager, Business Systems Analyst, and AI Analyst opportunities across industries.</p>
+            <div className="privacy-note"><span aria-hidden="true">◉</span><p><strong>Privacy by design</strong>This site intentionally publishes no email address, résumé download, or social profile. Recruiters already in contact with me can use our existing channel.</p></div>
+          </div>
+        </div>
+      </section>
+
       <section className="section" id="work">
         <div className="section-heading">
-          <p className="kicker">01 / Selected work</p>
+          <p className="kicker">02 / Selected work</p>
           <h2>From ambiguity<br />to shipped outcomes.</h2>
         </div>
         <div className="project-list">
@@ -69,7 +85,7 @@ export default function Home() {
 
       <section className="section approach">
         <div className="section-heading">
-          <p className="kicker">02 / What I bring</p>
+          <p className="kicker">03 / What I bring</p>
           <h2>Clear thinking,<br />careful execution.</h2>
         </div>
         <div className="capability-grid">
@@ -85,26 +101,10 @@ export default function Home() {
 
       <section className="section" id="thinking">
         <div className="section-heading split">
-          <div><p className="kicker">03 / Field notes</p><h2>How I think<br />about the work.</h2></div>
+          <div><p className="kicker">04 / Field notes</p><h2>How I think<br />about the work.</h2></div>
           <p className="section-intro">Short essays on insurance operations, trustworthy technology, and professional life online.</p>
         </div>
         <ArticleList articles={articles} />
-      </section>
-
-      <section className="closing" id="about">
-        <p className="kicker">04 / About</p>
-        <div className="closing-grid">
-          <h2>Aviation mindset.<br />Product judgment.<br /><em>Delivery discipline.</em></h2>
-          <div>
-            <div className="about-intro">
-              <img className="headshot" src="/headshot.png" alt="Ishan Shah" />
-            <p className="headshot-caption">Ishan Shah · product + systems</p>
-            </div>
-            <p>I work at the boundary between people, operations, and technology: asking the questions that uncover the real problem, mapping how decisions and data move, and helping teams deliver changes that hold up in production.</p>
-            <p>My aviation background taught me to prepare carefully, verify assumptions, and stay calm when the plan meets reality. I bring that same practical judgment to Product Manager, Business Systems Analyst, and AI Analyst opportunities across industries.</p>
-            <div className="privacy-note"><span aria-hidden="true">◉</span><p><strong>Privacy by design</strong>This site intentionally publishes no email address, résumé download, or social profile. Recruiters already in contact with me can use our existing channel.</p></div>
-          </div>
-        </div>
       </section>
 
       <footer><span>Ishan Shah © 2026</span><span>Product + Systems Portfolio</span><a href="#top">Back to top ↑</a></footer>
