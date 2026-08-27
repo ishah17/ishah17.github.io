@@ -14,6 +14,12 @@ main { overflow:hidden; }
 .availability { margin-left:auto; font:11px "SFMono-Regular",Consolas,monospace; text-transform:uppercase; letter-spacing:.08em; }
 .availability i { display:inline-block; width:7px; height:7px; border-radius:50%; background:#28a76c; margin-right:8px; box-shadow:0 0 0 4px rgba(40,167,108,.13); }
 .hero { max-width:1280px; margin:auto; padding:76px 5vw 56px; }
+.flight-motifs { position:absolute; inset:90px 0 auto; height:520px; pointer-events:none; z-index:0; }
+.flight-motif { position:absolute; color:rgba(49,91,155,.17); font-size:24px; transform:rotate(-18deg); }
+.motif-one { top:70px; right:14%; }
+.motif-two { top:310px; left:6%; color:rgba(217,109,88,.18); transform:rotate(18deg); }
+.motif-three { top:450px; right:31%; font-size:18px; transform:rotate(-35deg); }
+.hero>*:not(.flight-motifs) { position:relative; z-index:1; }
 .eyebrow { display:flex; justify-content:space-between; font:11px "SFMono-Regular",Consolas,monospace; text-transform:uppercase; letter-spacing:.16em; color:var(--teal); }
 h1 { margin:40px 0 28px; max-width:900px; font-size:clamp(48px,6.3vw,86px); line-height:1.06; letter-spacing:-.055em; font-weight:700; }
 h1 em,.closing h2 em { color:var(--teal); font-family:inherit; font-style:italic; font-weight:600; }
@@ -87,6 +93,7 @@ h1 em,.closing h2 em { color:var(--teal); font-family:inherit; font-style:italic
 footer { background:#202a55; color:#aeb6d6; border-top:1px solid rgba(255,255,255,.15); padding:30px 5vw; display:flex; justify-content:space-between; font:10px "SFMono-Regular",Consolas,monospace; text-transform:uppercase; letter-spacing:.08em; }
 footer a { color:white; text-decoration:none; }
 @media (max-width:800px) {
+  .flight-motifs { inset:70px 0 auto; height:420px; } .motif-one { right:8%; } .motif-two { left:3%; top:270px; } .motif-three { right:20%; top:375px; }
   .nav-links { display:none; } .availability { font-size:9px; }
   .hero { padding-top:58px; } h1 { margin:35px 0 30px; }
   .hero-bottom { display:block; } .text-link { display:inline-block; margin-top:28px; } .hero-visual { margin-top:20px; } .hero-visual figcaption { padding:12px 15px 15px; }
