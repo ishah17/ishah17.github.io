@@ -21,6 +21,11 @@ main { overflow:hidden; }
 .motif-three { top:430px; right:38%; font-size:18px; transform:rotate(-35deg); }
 .motif-four { top:210px; left:31%; font-size:17px; transform:rotate(12deg); color:rgba(49,91,155,.13); }
 .motif-five { top:520px; right:8%; font-size:16px; transform:rotate(-12deg); color:rgba(217,109,88,.14); }
+.motif-six { top:35px; left:17%; font-size:14px; transform:rotate(8deg); color:rgba(49,91,155,.12); }
+.motif-seven { top:165px; right:5%; font-size:15px; transform:rotate(-28deg); color:rgba(217,109,88,.12); }
+.motif-eight { top:350px; left:21%; font-size:13px; transform:rotate(25deg); color:rgba(49,91,155,.11); }
+.motif-nine { top:485px; left:47%; font-size:15px; transform:rotate(-8deg); color:rgba(217,109,88,.12); }
+.motif-ten { top:575px; left:12%; font-size:13px; transform:rotate(18deg); color:rgba(49,91,155,.11); }
 .hero>*:not(.flight-motifs) { position:relative; z-index:1; }
 .eyebrow { display:flex; justify-content:space-between; font:11px "SFMono-Regular",Consolas,monospace; text-transform:uppercase; letter-spacing:.16em; color:var(--teal); }
 h1 { margin:40px 0 28px; max-width:900px; font-size:clamp(48px,6.3vw,86px); line-height:1.06; letter-spacing:-.055em; font-weight:700; }
@@ -95,7 +100,7 @@ h1 em,.closing h2 em { color:var(--teal); font-family:inherit; font-style:italic
 footer { background:#202a55; color:#aeb6d6; border-top:1px solid rgba(255,255,255,.15); padding:30px 5vw; display:flex; justify-content:space-between; font:10px "SFMono-Regular",Consolas,monospace; text-transform:uppercase; letter-spacing:.08em; }
 footer a { color:white; text-decoration:none; }
 @media (max-width:800px) {
-  .flight-motifs { inset:70px 0 auto; height:420px; } .motif-one { right:10%; top:110px; } .motif-two { left:3%; top:250px; } .motif-three { right:24%; top:365px; } .motif-four { left:43%; top:210px; } .motif-five { right:5%; top:405px; }
+  .flight-motifs { inset:70px 0 auto; height:420px; } .motif-one { right:10%; top:110px; } .motif-two { left:3%; top:250px; } .motif-three { right:24%; top:365px; } .motif-four { left:43%; top:210px; } .motif-five { right:5%; top:405px; } .motif-six { left:16%; top:45px; } .motif-seven { right:4%; top:170px; } .motif-eight { left:17%; top:335px; } .motif-nine { left:53%; top:390px; } .motif-ten { left:10%; top:410px; }
   .nav-links { display:none; } .availability { font-size:9px; }
   .hero { padding-top:58px; } h1 { margin:35px 0 30px; }
   .hero-bottom { display:block; } .text-link { display:inline-block; margin-top:28px; } .hero-visual { margin-top:20px; } .hero-visual figcaption { padding:12px 15px 15px; }

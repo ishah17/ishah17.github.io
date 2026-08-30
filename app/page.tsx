@@ -21,7 +21,7 @@ export default function Home() {
       </nav>
 
       <section className="hero" id="top">
-        <div className="flight-motifs" aria-hidden="true"><span className="flight-motif motif-one">✈</span><span className="flight-motif motif-two">✈</span><span className="flight-motif motif-three">✈</span><span className="flight-motif motif-four">✈</span><span className="flight-motif motif-five">✈</span></div>
+        <div className="flight-motifs" aria-hidden="true"><span className="flight-motif motif-one">✈</span><span className="flight-motif motif-two">✈</span><span className="flight-motif motif-three">✈</span><span className="flight-motif motif-four">✈</span><span className="flight-motif motif-five">✈</span><span className="flight-motif motif-six">✈</span><span className="flight-motif motif-seven">✈</span><span className="flight-motif motif-eight">✈</span><span className="flight-motif motif-nine">✈</span><span className="flight-motif motif-ten">✈</span></div>
         <div className="eyebrow"><span>Product · Operations · Aviation</span><span>Based in California</span></div>
         <h1>I make complex work <em>clear, useful, and ready.</em></h1>
         <div className="role-strip" aria-label="Roles I am open to"><span>Product Manager</span><span>Business Systems Analyst</span><span>AI Analyst</span></div>
