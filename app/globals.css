@@ -5,7 +5,7 @@
 html { scroll-behavior:smooth; }
 body { margin:0; background:var(--paper); color:var(--ink); font-family:"Inter","Avenir Next","Segoe UI",system-ui,sans-serif; }
 a { color:inherit; }
-main { overflow:hidden; }
+main { overflow:hidden; position:relative; }
 .nav { height:70px; max-width:1280px; margin:18px auto 0; padding:0 24px; display:flex; align-items:center; border:1px solid var(--line); border-radius:999px; background:rgba(255,255,255,.82); box-shadow:0 8px 30px rgba(31,42,68,.06); position:relative; z-index:2; }
 .wordmark { width:20%; text-decoration:none; font-size:24px; font-weight:800; letter-spacing:-.08em; }
 .wordmark-dot { color:var(--teal); }
@@ -14,19 +14,24 @@ main { overflow:hidden; }
 .availability { margin-left:auto; font:11px "SFMono-Regular",Consolas,monospace; text-transform:uppercase; letter-spacing:.08em; }
 .availability i { display:inline-block; width:7px; height:7px; border-radius:50%; background:#28a76c; margin-right:8px; box-shadow:0 0 0 4px rgba(40,167,108,.13); }
 .hero { max-width:1280px; margin:auto; padding:76px 5vw 56px; }
-.flight-motifs { position:absolute; inset:90px 0 auto; height:520px; pointer-events:none; z-index:0; }
+.flight-motifs { position:absolute; inset:0; height:100%; min-height:3600px; pointer-events:none; z-index:0; }
 .flight-motif { position:absolute; color:rgba(49,91,155,.17); font-size:24px; transform:rotate(-18deg); }
-.motif-one { top:112px; right:22%; }
-.motif-two { top:300px; left:5%; color:rgba(217,109,88,.18); transform:rotate(18deg); }
-.motif-three { top:430px; right:38%; font-size:18px; transform:rotate(-35deg); }
-.motif-four { top:210px; left:31%; font-size:17px; transform:rotate(12deg); color:rgba(49,91,155,.13); }
-.motif-five { top:520px; right:8%; font-size:16px; transform:rotate(-12deg); color:rgba(217,109,88,.14); }
-.motif-six { top:35px; left:17%; font-size:14px; transform:rotate(8deg); color:rgba(49,91,155,.12); }
-.motif-seven { top:165px; right:5%; font-size:15px; transform:rotate(-28deg); color:rgba(217,109,88,.12); }
-.motif-eight { top:350px; left:21%; font-size:13px; transform:rotate(25deg); color:rgba(49,91,155,.11); }
-.motif-nine { top:485px; left:47%; font-size:15px; transform:rotate(-8deg); color:rgba(217,109,88,.12); }
-.motif-ten { top:575px; left:12%; font-size:13px; transform:rotate(18deg); color:rgba(49,91,155,.11); }
-.hero>*:not(.flight-motifs) { position:relative; z-index:1; }
+.motif-one { top:4%; right:22%; }
+.motif-two { top:11%; left:5%; color:rgba(217,109,88,.18); transform:rotate(18deg); }
+.motif-three { top:16%; right:38%; font-size:18px; transform:rotate(-35deg); }
+.motif-four { top:8%; left:31%; font-size:17px; transform:rotate(12deg); color:rgba(49,91,155,.13); }
+.motif-five { top:19%; right:8%; font-size:16px; transform:rotate(-12deg); color:rgba(217,109,88,.14); }
+.motif-six { top:2%; left:17%; font-size:14px; transform:rotate(8deg); color:rgba(49,91,155,.12); }
+.motif-seven { top:6%; right:5%; font-size:15px; transform:rotate(-28deg); color:rgba(217,109,88,.12); }
+.motif-eight { top:13%; left:21%; font-size:13px; transform:rotate(25deg); color:rgba(49,91,155,.11); }
+.motif-nine { top:18%; left:47%; font-size:15px; transform:rotate(-8deg); color:rgba(217,109,88,.12); }
+.motif-ten { top:22%; left:12%; font-size:13px; transform:rotate(18deg); color:rgba(49,91,155,.11); }
+.motif-eleven { top:33%; right:14%; font-size:15px; transform:rotate(-20deg); color:rgba(49,91,155,.13); }
+.motif-twelve { top:45%; left:7%; font-size:14px; transform:rotate(16deg); color:rgba(217,109,88,.13); }
+.motif-thirteen { top:58%; right:30%; font-size:13px; transform:rotate(-12deg); color:rgba(49,91,155,.12); }
+.motif-fourteen { top:72%; left:17%; font-size:16px; transform:rotate(25deg); color:rgba(217,109,88,.13); }
+.motif-fifteen { top:87%; right:9%; font-size:14px; transform:rotate(-18deg); color:rgba(49,91,155,.12); }
+main > *:not(.flight-motifs) { position:relative; z-index:1; }
 .eyebrow { display:flex; justify-content:space-between; font:11px "SFMono-Regular",Consolas,monospace; text-transform:uppercase; letter-spacing:.16em; color:var(--teal); }
 h1 { margin:40px 0 28px; max-width:900px; font-size:clamp(48px,6.3vw,86px); line-height:1.06; letter-spacing:-.055em; font-weight:700; }
 h1 em,.closing h2 em { color:var(--teal); font-family:inherit; font-style:italic; font-weight:600; }
@@ -100,7 +105,7 @@ h1 em,.closing h2 em { color:var(--teal); font-family:inherit; font-style:italic
 footer { background:#202a55; color:#aeb6d6; border-top:1px solid rgba(255,255,255,.15); padding:30px 5vw; display:flex; justify-content:space-between; font:10px "SFMono-Regular",Consolas,monospace; text-transform:uppercase; letter-spacing:.08em; }
 footer a { color:white; text-decoration:none; }
 @media (max-width:800px) {
-  .flight-motifs { inset:70px 0 auto; height:420px; } .motif-one { right:10%; top:110px; } .motif-two { left:3%; top:250px; } .motif-three { right:24%; top:365px; } .motif-four { left:43%; top:210px; } .motif-five { right:5%; top:405px; } .motif-six { left:16%; top:45px; } .motif-seven { right:4%; top:170px; } .motif-eight { left:17%; top:335px; } .motif-nine { left:53%; top:390px; } .motif-ten { left:10%; top:410px; }
+  .flight-motifs { min-height:5200px; } .motif-one { right:10%; } .motif-two { left:3%; } .motif-three { right:24%; } .motif-four { left:43%; } .motif-five { right:5%; } .motif-six { left:16%; } .motif-seven { right:4%; } .motif-eight { left:17%; } .motif-nine { left:53%; } .motif-ten { left:10%; } .motif-eleven { right:7%; } .motif-twelve { left:5%; } .motif-thirteen { right:20%; } .motif-fourteen { left:12%; } .motif-fifteen { right:6%; }
   .nav-links { display:none; } .availability { font-size:9px; }
   .hero { padding-top:58px; } h1 { margin:35px 0 30px; }
   .hero-bottom { display:block; } .text-link { display:inline-block; margin-top:28px; } .hero-visual { margin-top:20px; } .hero-visual figcaption { padding:12px 15px 15px; }
