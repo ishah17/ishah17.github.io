@@ -18,50 +18,50 @@ export default function Home() {
           <a href="#thinking">Thinking</a>
           <a href="#about">About</a>
         </div>
-            <span className="availability"><i /> Open to product + systems roles</span>
+            <span className="availability"><i /> Open to PM, Scrum & transformation roles</span>
       </nav>
 
       <section className="hero" id="top">
-        <div className="eyebrow"><span>Product · Operations · Aviation</span><span>Based in California</span></div>
-        <h1>I make complex work <em>clear, useful, and ready.</em></h1>
-        <div className="role-strip" aria-label="Roles I am open to"><span>Product Manager</span><span>Business Systems Analyst</span><span>AI Analyst</span></div>
+        <div className="eyebrow"><span>Delivery · Technology · Aviation</span><span>Based in California</span></div>
+        <h1>I turn complex problems <em>into working solutions.</em></h1>
+        <div className="role-strip" aria-label="Roles I am open to"><span>Product &amp; Project Management</span><span>Scrum Master</span><span>Insurance Technology Transformation</span></div>
         <div className="hero-bottom">
           <p className="hero-copy">
-            I’m Ishan Shah, a product and systems professional who brings an aviation-trained eye for preparation and clear handoffs to complex work: understand the real problem, make the decision visible, and help teams deliver changes people can trust.
+            I’m Ishan Shah. I help business and technology teams get from “this needs to work better” to a system people can use. At Zenith Insurance, I spent six years connecting operations, software delivery, and the people doing the work, including a nationwide platform replacement.
           </p>
-          <a className="text-link" href="#work">Explore selected work <Arrow /></a>
+          <a className="text-link" href="#work">See how I work <Arrow /></a>
         </div>
         <figure className="hero-visual">
           <img src="/process-map.png" alt="Product workflow moving from discover to define, deliver, and measure" />
         </figure>
         <div className="signal-panel" aria-label="Selected experience signals">
-          <div><strong>6+</strong><span>years turning regulated operations into systems delivery</span></div>
-          <div><strong>18+</strong><span>months leading business analysis for a CIO-sponsored nationwide platform replacement</span></div>
-          <div><strong>$250K+</strong><span>annual technology savings contributed through platform transformation</span></div>
-          <div><strong>P&amp;C</strong><span>workers’ comp &amp; premium-audit domain depth</span></div>
+          <div><strong>6 yrs</strong><span>at Zenith, connecting operations and technology delivery</span></div>
+          <div><strong>U.S.</strong><span>nationwide platform rollout, from discovery through production support</span></div>
+          <div><strong>Scrum</strong><span>planning, refinement, retrospectives, and removing blockers</span></div>
+          <div><strong>QA/UAT</strong><span>hands-on testing, defect triage, and release readiness</span></div>
         </div>
       </section>
 
       <section className="closing" id="about">
         <p className="kicker">01 / About</p>
         <div className="closing-grid">
-          <h2>Aviation mindset.<br />Product judgment.<br /><em>Delivery discipline.</em></h2>
+          <h2>Curious by nature.<br />Prepared for the work.<br /><em>Here for the team.</em></h2>
           <div>
             <div className="about-intro">
               <img className="headshot" src="/headshot.png" alt="Ishan Shah" />
-              <p className="headshot-caption">Ishan Shah · product + systems</p>
+              <p className="headshot-caption">Ishan Shah · delivery, technology & aviation</p>
             </div>
-            <p>I work at the boundary between people, operations, and technology: asking the questions that uncover the real problem, mapping how decisions and data move, and helping teams deliver changes that hold up in production.</p>
-            <p>My aviation background taught me to prepare carefully, verify assumptions, and stay calm when the plan meets reality. I bring that same practical judgment to Product Manager, Business Systems Analyst, and AI Analyst opportunities across industries.</p>
-            <div className="privacy-note"><span aria-hidden="true">◉</span><p><strong>Privacy by design</strong>This site intentionally publishes no email address, résumé download, or social profile. Recruiters already in contact with me can use our existing channel.</p></div>
+            <p>I like figuring out why something is harder than it needs to be. Usually that starts with listening to the people closest to it. My background spans insurance technology, healthcare, and software training, so I’m used to learning a business and helping different teams understand each other.</p>
+            <p>Outside work, aviation is a big part of my life. I’m a private pilot, and I bring that interest in preparation and problem-solving into projects too. I’m mission-oriented: understand the job, follow a useful process, and adapt when things change. I care about doing the work properly, including the handoff to whoever comes next.</p>
+            <div className="privacy-note"><span aria-hidden="true">◉</span><p><strong>Privacy by design</strong>I take data security, OSINT, and OPSEC seriously. I keep personal contact details and my résumé off this public page. If you’re here through an application or introduction, please reach me through that existing conversation.</p></div>
           </div>
         </div>
       </section>
 
       <section className="section" id="work">
         <div className="section-heading">
-          <p className="kicker">02 / Selected work</p>
-          <h2>From ambiguity<br />to shipped outcomes.</h2>
+          <p className="kicker">02 / Experience in practice</p>
+          <h2>The work behind<br />a successful rollout.</h2>
         </div>
         <div className="project-list">
           {projects.map((project, index) => (
@@ -85,7 +85,7 @@ export default function Home() {
       <section className="section approach">
         <div className="section-heading">
           <p className="kicker">03 / What I bring</p>
-          <h2>Clear thinking,<br />careful execution.</h2>
+          <h2>How I help<br />a team deliver.</h2>
         </div>
         <div className="capability-grid">
           {capabilities.map((item, index) => (
@@ -101,12 +101,12 @@ export default function Home() {
       <section className="section" id="thinking">
         <div className="section-heading split">
           <div><p className="kicker">04 / Field notes</p><h2>How I think<br />about the work.</h2></div>
-          <p className="section-intro">Short essays on insurance operations, trustworthy technology, and professional life online.</p>
+          <p className="section-intro">A few things I care about: aviation, practical technology, and being thoughtful about what we share online.</p>
         </div>
         <ArticleList articles={articles} />
       </section>
 
-      <footer><span>Ishan Shah © 2026</span><span>Product + Systems Portfolio</span><a href="#top">Back to top ↑</a></footer>
+      <footer><span>Ishan Shah © 2026</span><span>Delivery & Technology Portfolio</span><a href="#top">Back to top ↑</a></footer>
     </main>
   );
 }
